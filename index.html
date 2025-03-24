@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+    <title>Bootstrap Example</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body class="p-3 m-0 border-0 bd-example m-0 border-0">
+    <header class="header">
+        <div class="dropdown" style="position: absolute; right: 90px;">
+            <form class="dropdown-menu p-4">
+                <div class="mb-3">
+                    <label for="exampleDropdownFormEmail2" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="exampleDropdownFormEmail2"
+                        placeholder="email@example.com">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleDropdownFormPassword2" class="form-label">Password</label>
+                    <input type="password" class="form-control" id="exampleDropdownFormPassword2"
+                        placeholder="Password">
+                </div>
+                <div class="mb-3">
+                    <div class="form-check">
+                        <input type="checkbox" class="form-check-input" id="dropdownCheck2">
+                        <label class="form-check-label" for="dropdownCheck2">
+                            Remember me
+                        </label>
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-primary">Sign in</button>
+            </form>
+        </div>
+        <button type="button" class="btn btn-outline-secondary" style="position: absolute; right: 230px;">buy
+            now</button>
+        <button type="button" class="btn" style="position: absolute; right: 320px;">Get in Touch</button>
+        <button type="button" class="btn" style="position: absolute; right: 450px;">Reviews</button>
+        <button type="button" class="btn" style="position: absolute; right: 550px;">About the Book</button>
+        <div class="picture-frst">
+            <img src="net-ninja.png" width="250" style="position: absolute; left: 200px;">
+        </div>
+    </header>
+    <main>
+        <div class="container mt-5">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-md-6 text-center">
+                    <img src="1.png" width="500" alt="book picture-frst" class="img-fluid">
+                </div>
+                <div class="col-md-6">
+                    <h1>Black-belt</h1>
+                    <h1 class="fw-light">Your coding skills</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est perspiciatis tempore, tenetur minima
+                        tempora ipsam sit iusto aliquam dolorem qui quisquam laborum distinctio et reiciendis,
+                        architecto eaque
+                        excepturi unde iste.</p>
+                    <a class="btn btn-primary" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button"
+                        aria-controls="offcanvasExample">
+                        Buy now
+                    </a>
+                    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample"
+                        aria-labelledby="offcanvasExampleLabel">
+                        <div class="offcanvas-header">
+                            <h5 class="offcanvas-title" id="offcanvasExampleLabel">My other books</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                                aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                            <div>
+                                Some text as placeholder. In real life you can have the elements you have chosen. Like,
+                                text, images, lists, etc.
+                            </div>
+                            <div class="dropdown mt-3">
+                                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownButton">
+                                    choose a book title
+                                </button>
+                                <ul class="dropdown-menu" id="bookList">
+                                    <li><a class="dropdown-item" href="#">Become a React Superhero</a></li>
+                                    <li><a class="dropdown-item" href="#">Conquering Vue.js</a></li>
+                                    <li><a class="dropdown-item" href="#">Leveling up Your Next.js</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        </div>
+        </div>
+        </div>
+
+        <div class="pricing-section">
+            <div class="text-center">
+                <h2>Pricing Plans</h2>
+                <p>Choose a pricing plan to suit you.</p>
+            </div>
+
+            <div class="row justify-content-center w-100">
+                <div class="col-md-3">
+                    <div class="pricing-card">
+                        <h5>Starter Edition</h5>
+                        <p>eBook download only</p>
+                        <h3 class="text-warning">$12.99</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
+                        <button class="btn btn-custom">Buy Now</button>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="pricing-card most-popular">
+                        <h5>Complete Edition</h5>
+                        <p>eBook download & all updates</p>
+                        <h3 class="text-warning">$18.99</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
+                        <button class="btn btn-custom">Buy Now</button>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="pricing-card">
+                        <h5>Ultimate Edition</h5>
+                        <p>Download, updates & extras</p>
+                        <h3 class="text-warning">$24.99</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
+                        <button class="btn btn-custom">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container mt-5">
+            <div class="row align-items-center">
+                <div class="col-md-5 text-center">
+                    <img src="2.png" class="img-fluid" alt="Net Ninja Pro Book" style="max-width: 300px;">
+                </div>
+
+                <div class="col-md-7">
+                    <h3 class="text-center">Inside the Book...</h3>
+                    <p class="text-center text-muted">A quick glance at the topics you'll learn</p>
+
+                    <div class="accordion" id="bookAccordion">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#chapter1" aria-expanded="true">
+                                    Chapter 1 - Your First Web Page
+                                </button>
+                            </h2>
+                            <div id="chapter1" class="accordion-collapse collapse show" data-bs-parent="#bookAccordion">
+                                <div class="accordion-body">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                    Unde ab, nisi animi rem dolorum doloribus, perferendis vel, quo in ea commodi illo
+                                    soluta aut fugiat fuga minus necessitatibus sint qui?</div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#chapter2">
+                                    Chapter 2 - Mastering CSS
+                                </button>
+                            </h2>
+                            <div id="chapter2" class="accordion-collapse collapse" data-bs-parent="#bookAccordion">
+                                <div class="accordion-body">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Illum at odit neque eaque perspiciatis. Repellendus dolor cum numquam similique
+                                    quidem adipisci autem voluptate amet atque reiciendis iure, ducimus beatae incidunt?
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#chapter3">
+                                    Chapter 3 - The Power of JavaScript
+                                </button>
+                            </h2>
+                            <div id="chapter3" class="accordion-collapse collapse" data-bs-parent="#bookAccordion">
+                                <div class="accordion-body">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                    Sit aspernatur temporibus autem et laborum beatae ab facere molestias? Dolores neque
+                                    quod asperiores ut vel repellat ipsam sapiente animi consequatur ratione.</div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#chapter4">
+                                    Chapter 4 - Storing Data (Firebase Databases)
+                                </button>
+                            </h2>
+                            <div id="chapter4" class="accordion-collapse collapse" data-bs-parent="#bookAccordion">
+                                <div class="accordion-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit dolores culpa
+                                    consequuntur exercitationem dolore aspernatur, eveniet, voluptatem porro impedit
+                                    esse repellendus? Modi odit nihil qui magni laudantium voluptatum expedita autem!
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#chapter5">
+                                    Chapter 5 - User Authentication
+                                </button>
+                            </h2>
+                            <div id="chapter5" class="accordion-collapse collapse" data-bs-parent="#bookAccordion">
+                                <div class="accordion-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut corrupti in soluta unde
+                                    nobis ratione, tenetur ducimus eos cum molestias sapiente dolore commodi vitae
+                                    omnis? Itaque in neque natus eaque?</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <div class="container mt-5">
+        <h2 class="text-center" style="margin-top: 50px;">✨ Book Reviews ✨</h2>
+        <p class="text-center">What my students have said about the book...</p>
+        <div class="col-md-8 mx-auto">
+            <div class="review-card">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <h5>A must-buy for every aspiring web dev</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor, sit amet consectetur
+                    adipisicing elit. Tempore minus repellat aut quisquam consectetur excepturi explicabo earum sapiente
+                    sit est doloribus placeat rem illum unde eum laborum, error, quibusdam vitae.</p>
+                <small>Review by Mario</small>
+            </div>
+            <div class="review-card">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <h5>A must-buy for every aspiring web dev</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor, sit amet consectetur
+                    adipisicing elit. Tempore minus repellat aut quisquam consectetur excepturi explicabo earum sapiente
+                    sit est doloribus placeat rem illum unde eum laborum, error, quibusdam vitae.</p>
+                <small>Review by Mario</small>
+            </div>
+            <div class="review-card">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h5>A must-buy for every aspiring web dev</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Sunt tempore accusantium doloribus reiciendis commodi id earum nulla minus quaerat
+                    ducimus ad voluptatibus inventore atque error, dignissimos cum? Commodi, eaque quae.</p>
+                <small>Review by Mario</small>
+            </div>
+            <div class="review-card">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <h5>A must-buy for every aspiring web dev</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor, sit amet consectetur
+                    adipisicing elit. Tempore minus repellat aut quisquam consectetur excepturi explicabo earum sapiente
+                    sit est doloribus placeat rem illum unde eum laborum, error, quibusdam vitae.</p>
+                <small>Review by Mario</small>
+            </div>
+            <div class="review-card">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h5>A must-buy for every aspiring web dev</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Sunt tempore accusantium doloribus reiciendis commodi id earum nulla minus quaerat
+                    ducimus ad voluptatibus inventore atque error, dignissimos cum? Commodi, eaque quae.</p>
+                <small>Review by Mario</small>
+            </div>
+        </div>
+    </div>
+    <div class="container d-flex justify-content-center">
+        <div class="col-md-6 contact-form">
+            <h2 class="text-center">Get in Touch</h2>
+            <p class="text-center">Questions to ask? Fill out the form to contact me directly...</p>
+            <form>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email address:</label>
+                    <div class="input-group">
+                        <span class="input-group-text"><i class="fas fa-envelope"></i></span>
+                        <input type="email" class="form-control" id="email" placeholder="e.g. mario@example.com"
+                            required>
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <label for="name" class="form-label">Name:</label>
+                    <div class="input-group">
+                        <span class="input-group-text"><i class="fas fa-user"></i></span>
+                        <input type="text" class="form-control" id="name" placeholder="e.g. Mario" required>
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <label for="question" class="form-label">What is your question about?</label>
+                    <div class="input-group">
+                        <span class="input-group-text"><i class="fas fa-question-circle"></i></span>
+                        <select class="form-select" id="question">
+                            <option selected>Pricing query</option>
+                            <option>Technical support</option>
+                            <option>General inquiry</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <label for="query" class="form-label">Your query...</label>
+                    <textarea class="form-control" id="query" rows="4" placeholder="Your query..."></textarea>
+                </div>
+                <div class="d-grid">
+                    <button type="submit" class="btn btn-dark">Submit</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div class="container-gg">
+        <h2>Stay in The Loop</h2>
+        <p class="text-muted">Get the latest updates as they happen...</p>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero exercitationem voluptatibus porro,
+            hic asperiores fuga illo voluptates obcaecati deleniti veritatis sunt saepe quasi deserunt ex ipsum.
+            Est possimus, aspernatur, vitae eligendi rem odit quaerat, ipsum pariatur ratione maxime delectus
+            fuga minus accusamus dolores iusto maiores accusantium cumque magnam placeat quia!
+        </p>
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal"
+            data-bs-whatever="@mdo">Register for updates</button>
+    </div>
+
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Get the latest updates</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="mb-3">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, voluptates quam,
+                                aperiam totam voluptatem porro eveniet perspiciatis odit consectetur, cumque eos
+                                expedita possimus pariatur. Eveniet cum consectetur inventore adipisci tempore? Lorem
+                                ipsum dolor sit amet consectetur adipisicing elit. Magni error provident doloremque
+                                facilis quod fugit sed suscipit, modi architecto sint doloribus quisquam exercitationem.
+                                Nihil iusto quod rerum est perspiciatis temporibus.</p>
+                        </div>
+                        <div class="mb-3">
+                            <label for="message-text" class="col-form-label">Your email address: </label>
+                            <textarea class="form-control" id="message-text"></textarea>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary">Submit</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+        document.getElementById("dropdownButton").addEventListener("click", function () {
+            var bookList = document.getElementById("bookList");
+            bookList.classList.toggle("show");
+        });
+    </script>
+</body>
+
+</html>

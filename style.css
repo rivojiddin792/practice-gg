@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 50px;
+    height: 100%;
+    display: flex;
+}
+
+.text-1 {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pricing-card {
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+.most-popular {
+    border: 2px solid #C79C54;
+    position: relative;
+}
+.most-popular::before {
+    content: "Most Popular";
+    position: absolute;
+    top: -15px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: white;
+    padding: 3px 10px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #C79C54;
+    border-radius: 5px;
+}
+.pricing-card h3 {
+    color: #C79C54;
+    font-weight: bold;
+}
+.btn-custom {
+    background: transparent;
+    border: 2px solid #C79C54;
+    color: #C79C54;
+    border-radius: 5px;
+    padding: 8px 15px;
+    font-weight: bold;
+}
+.btn-custom:hover {
+    background: #C79C54;
+    color: white;
+}
+.pricing-section {
+    height: 500px;
+    display: flex;  
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+}
+.review-card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 15px;
+}
+.stars {
+    color: #ffcc00;
+}
+.contact-form {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 50px;
+}
+.container-gg{
+    text-align: center;
+    padding: 60px 20px;
+}
+.btn-custom {
+    background-color: #c8a961;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+}
+.btn-custom:hover {
+    background-color: #b09055;
+}
